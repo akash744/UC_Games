@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient
+                android:startColor="#8bb9e1"
+                android:endColor="#8bb9e1"/>
+            <corners
+                android:topRightRadius="120dp"
+                android:topLeftRadius="120dp"
+                android:bottomLeftRadius="120dp"
+                android:bottomRightRadius="120dp"/>
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/category_fighting_image"
+        android:top="100dp"
+        android:left="100dp"
+        android:right="100dp"
+        android:bottom="100dp"/>
+</layer-list>
