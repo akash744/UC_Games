@@ -21,16 +21,15 @@
             android:id="@+id/custom_search_bar_main"
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="148dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorPrimary">
 
             <TextView
                 android:id="@+id/text_view_company_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
                 android:layout_marginTop="16dp"
-                android:gravity="center"
+                android:layout_gravity="center"
                 android:fontFamily="@font/opensans_bold"
                 android:text="UC Games"
                 android:textColor="@android:color/background_light"
@@ -41,11 +40,11 @@
             <EditText
                 android:id="@+id/custom_search_view_main"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="45dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="20dp"
-                android:layout_marginBottom="24dp"
+                android:layout_marginBottom="12dp"
                 android:background="@drawable/search_bg"
                 android:drawableLeft="@drawable/ic_search_black_24dp"
                 android:drawablePadding="12dp"
